@@ -15,6 +15,31 @@ textarea:focus {
 	outline: none !important;
 }
 
+h1 {
+	font-size: 170%;
+	font-weight: bold;
+	/*font-weight: normal;*/
+	text-align: center;
+	/*margin-top: 10px;
+	margin-bottom: 10px;*/
+	margin: 10px auto;
+	position: relative;
+	/*background-color: red;*/
+	width: 178px;
+	color: #49423d;
+	/*color: #665c55;*/
+}
+
+span.star {
+	position: absolute;
+	top: -17px;
+	left: -2px;
+	font-size: 300%;
+	font-weight: normal;
+	/*line-height: 50%;*/
+	/*color: red;*/
+}
+
 input {
 	width: 100%;
 	font-size: 80%;
@@ -24,22 +49,22 @@ input {
 }
 
 main {
-	max-width: 1130px;
-	width: 100%;
-	margin: auto;
-	margin-top: 15px;
-	box-sizing: border-box;
+	text-align: center;
 }
 
-div.notepad {
-	display: inline-block;
-	vertical-align: top;
+section.notepad {
+	display: inline-block;	
 	width: 100%;
 	max-width: 560px;
+	vertical-align: top;
 }
 
 div.container {
-	margin-top: -27px;
+	margin-top: -2px;
+	display: inline-block;
+	width: 100%;
+	max-width: 560px;
+	position: relative;
 }
 
 div.container textarea {
@@ -47,31 +72,32 @@ div.container textarea {
 	box-sizing: border-box;
 	max-width: 560px;
 	width: 100%;
-	height: 85vh;
+	height: 80vh;
 	resize: none;
 	border: 2px solid #99958c;
 	border-radius: 0  0 5px 5px;
 }
 
-div.container a {
+main section.notepad div.container a {
 	display: inline-block;
-	left: 6px;
+	left: 2px;
 	top: 2px;
-	z-index: 999;
-	position: relative;
+	position: absolute;
 	text-decoration: none;
 	font-size: 120%;
 	color: #000000;
+	padding-right: 5px;
+	padding-left: 5px;
 }
 
-div.container a:hover {
+section.notepad div.container a:hover {
 	color: #ff0000;
 	font-weight: bold;
 }
 
 div.tab {
 	position: relative;
-	top: 28px;
+	top: 3px;
 	background: #ffffff;
 	border: 2px solid #99958c;
 	border-radius: 5px 5px 0 0;
@@ -82,7 +108,6 @@ div.tab {
 }
 
 	div.first {
-		/*border-color: #ff3333;*/
 		border-color: #49423d;
 	}
 
@@ -124,3 +149,9 @@ footer p a:hover {
 .mini:before {
 	content: "+";
 }
+
+
+
+
+
+

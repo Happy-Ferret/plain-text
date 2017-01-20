@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Простой текст</title>
+	<title>Plain text</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700&subset=cyrillic" rel="stylesheet">
-	<link rel="shortcut icon" href="http://svoekino.github.io
-/plain-text/favicon.png" type="image/png">
-	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	<link rel="shortcut icon" href="http://svoekino.github.io/plain-text/favicon.png" type="image/png">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	<script type="text/javascript" src="js/ajax.js"></script>
@@ -15,26 +14,39 @@
 " ></script> -->
 	<script type="text/javascript">
 		$(document).ready(function(){
-	        $("a.mini-maxi").click(function () {
-		     $(this).toggleClass("mini maxi");
-		   	});
+			$("a.mini-maxi").click(function () {
+			$(this).toggleClass("mini maxi");
+			});
 		});
-	</script>	
+	</script>
+
+	<!-- <script type="text/javascript">	
+	$(document).ready(function(){
+			$('.button').click(function()
+			{
+			$('.container').removeClass("hidden");
+			});
+		});
+	</script>	 -->
 </head>
 <body>
 
+<header>
+	<h1><span class="star">*</span> Plain text</h1>
+</header>
+
 <main>
-	<div class="notepad">
+	<section class="notepad">
 
 		<div class="container">
 
 			<div class="tab first">
-					<input type="text" name="01-title" id="01-title" placeholder="...">
+					<input type="text" name="01-title" id="01-title" placeholder="Your title">
 			</div>
 			<a href="" class="hidden-link mini-maxi maxi"></a>
 			
 			<section class="hidden-body">
-				<textarea name="01-text" id="01-notepad" autofocus=""></textarea>
+				<textarea name="01-text" id="01-notepad" autofocus="" placeholder="Your text"></textarea>
 			</section>
 
 		</div>
@@ -51,9 +63,12 @@
 			</section>
 		</div>
 
-	</div>
 
-	<div class="notepad">
+		<!-- <input type="button" class="button" value="Кликни на меня" /> -->
+
+	</section>
+
+	<section class="notepad">
 
 		<div class="container">
 
@@ -80,12 +95,15 @@
 			</section>
 		</div>
 
-	</div>
+	</section>
 </main>
 
 <footer>
-	<p><a href="http://svoekino.github.io">svoekino.github.io</a></p>
+	<p><a href="">About</a></p>
 </footer>
+
+
+
 
 <script type="text/javascript" src="js/local-storage.js"></script>
 </body>
