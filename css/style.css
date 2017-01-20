@@ -25,6 +25,8 @@ input {
 
 main {
 	max-width: 1130px;
+
+	/*max-width: 560px;*/
 	width: 100%;
 	margin: auto;
 	margin-top: 15px;
@@ -124,3 +126,9 @@ footer p a:hover {
 .mini:before {
 	content: "+";
 }
+
+
+
+
+
+
