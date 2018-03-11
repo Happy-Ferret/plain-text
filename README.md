@@ -3,4 +3,4 @@
 
 "Plain text" is browser extension for quick notes.
 
-[Plain Text](https://svoekino.github.io/plain-text/)
+Online mode [Plain Text](https://svoekino.github.io/plain-text/)
