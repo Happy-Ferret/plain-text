@@ -14,12 +14,12 @@
     "icons": {
     	"48": "icon-48.png",
   		"96": "icon-96.png"
-  	},
+  	}
 
-    "applications": {
-    "gecko": {
-      "id": "svoekino@mozilla.org"
-    }
-  }
+    // "applications": {
+    // "gecko": {
+    //   "id": "thujjon@yandex.ru"
+    // добавь запятую на верху, если уберешь комментарий}
+  // }
 
 }
