@@ -11,7 +11,7 @@ It's free.
 
 
 
-![Screenshot](https://svoekino.github.io/plain-text/screenshots/Screenshot-1.0-01.png)
+![Screenshot](https://svoekino.github.io/plain-text/screenshots/screenshot-1.0-01.png)
 
 
 
