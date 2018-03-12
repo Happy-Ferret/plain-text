@@ -1,9 +1,9 @@
 # Plain Text
 
 
-"Plain text" is notepad for quick notes in your browser.
+"Plain text" is a notepad for quick notes in your browser.
 
-You can work with one notepad in a pop-up window or with four notepads in the next tab.
+You can work with one notepad in a pop-up window or with four notepads in a next tab.
 
 Each notepad can have its own title and can be collapsed.
 
