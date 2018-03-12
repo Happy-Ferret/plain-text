@@ -9,17 +9,17 @@ Each notepad can have its own title and can be collapsed.
 
 It's free.
 
-*****
+
 
 ![Screenshot](https://svoekino.github.io/plain-text/screenshots/Screenshot-1.0-01.png)
 
-*****
+
 
 ## Browsers
 
 - [Firefox add-on](https://addons.mozilla.org/ru/firefox/addon/plain-text)
 
-*****
+
 
 ## License
 
